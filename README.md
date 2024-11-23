@@ -31,8 +31,8 @@ Cerbos is built by developers, for developers. It's designed to seamlessly integ
 
 #### **Production-Ready from Day One**  
 With Cerbos, you don't need to worry about last-minute surprises in production. Enjoy first-class support for **`GitOps`** with features like:  
-- A **built-in testing framework** to validate policies.  
-- Easy integration with your **`CI/CD pipeline`** for seamless deployment.
+- A **built-in testing framework** to validate policies.
+- Easy integration with your **`CI/CD pipeline`** for seamless deployment. [here](https://www.cerbos.dev/features-benefits-and-use-cases/gitops-and-ci-cd).
 
 #### **Support for Multiple Languages**  
 Cerbos is designed for flexibility, with support for popular programming languages like:  
@@ -129,29 +129,22 @@ Managing roles and permissions in a fast-evolving business can be a challenge, b
 #### **A Step-by-Step Guide to Smarter Authorization**  
 
 **1. Capture Business Requirements**  
-Start by gathering input from across your team. Understand what your permission logic needs to achieve in your application.  
-
-🔍 [Learn how to map requirements to authorization policies](https://play.cerbos.dev/new?generator).  
+Start by gathering input from across your team. Understand what your permission logic needs to achieve in your application. [Learn how to map requirements to authorization policies](https://play.cerbos.dev/new?generator).  
 
 **2. Define Policies**  
-Based on your business logic, create policies that define roles, conditions, and rules for each resource in your app.  
-
-📚 [Explore Cerbos policy documentation](https://www.cerbos.dev/docs).  
+Based on your business logic, create policies that define roles, conditions, and rules for each resource in your app. [Explore Cerbos policy documentation](https://www.cerbos.dev/docs).  
 
 **3. Implement Permission Checks**  
-Collaborate with your developers to integrate permission checks. The best part? This setup only needs to be done once!  
-
-👨‍💻 [Access developer resources](https://www.cerbos.dev/docs).  
+Collaborate with your developers to integrate permission checks. The best part? This setup only needs to be done once! [Access developer resources](https://www.cerbos.dev/docs).  
 
 **4. Iterate as You Grow**  
 As your business evolves, update policies and conditions directly in Cerbos without touching application code.  
 
-🎓 [Book a free policy-mapping workshop](https://www.cerbos.dev/workshop) and start building smarter policies today.  
+[Book a free policy-mapping workshop](https://www.cerbos.dev/workshop) and start building smarter policies today.  
 
 Streamline your authorization process and give your product team the flexibility they need to succeed. With Cerbos, policies keep up with your business—effortlessly here [Cerbos for Product Teams](https://www.cerbos.dev/for-product-teams) !
 
-
-That's all about Cerbos Hub. However, the possibilities of Cerbos are endless.
+> That's all about Cerbos Hub. However, the possibilities of Cerbos are endless.
 
 Well, okey; Let's move on to the next product.
 
