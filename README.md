@@ -1,5 +1,7 @@
 # Cerbos: Fine-Grained Access Control in Days NOT Months
 
+![Get Started with Cerbos](assets/how_cerbos_works.png)
+
 Recently I came across a new open-source project called `Cerbos: Authorization-as-a-Service`. It worth to discuss it here.
 
 ## So... What is Cerbos?
@@ -11,6 +13,8 @@ As of November 2024, Cerbos is still in the early stages of development, but it 
 
 They offer two main products such as [Cerbos Hub](https://www.cerbos.dev/product-cerbos-hub) and [Cerbos Policy Decision Point (PDP)](https://www.cerbos.dev/product-cerbos-pdp).
 It's kinda one solution for different teams like [Developers](https://www.cerbos.dev/for-developers), [Architects](https://www.cerbos.dev/for-architects), [Security Engineers](https://www.cerbos.dev/for-security-teams), and [Product Teams](https://www.cerbos.dev/for-product-teams) to implement authorization in their applications.
+
+And... it's [Open Source](https://github.com/cerbos/cerbos).
 
 Let's dive into the details. And see how different teams can benefit from Cerbos.
 
@@ -185,6 +189,8 @@ We build Open Source AI-powered projects and tools for people.
 - **Built for Scale**: Stateless and containerized architecture with horizontal scalability to handle increasing workloads seamlessly. [Scaling Cerbos](https://www.cerbos.dev/features-benefits-and-use-cases/scalability)
 
 - **Centralized Management**: Cerbos Hub simplifies policy management, promotes collaboration, and streamlines deployment processes. [Cerbos Hub](https://www.cerbos.dev/product-cerbos-hub)
+
+![Centralized Management](assets/super-simple-diagram.svg)
 
 - **Supported Authentication Providers**: Seamless integration with any identity provider, including native JWT support for systems like Auth0 and Okta. [Policy-based authorization](https://www.cerbos.dev/features-benefits-and-use-cases/human-readable-authorization)
 
