@@ -1,15 +1,16 @@
 # Cerbos: Fine-Grained Access Control in Days NOT Months
 
-Recently I came across a new open-source project called Cerbos: Authorization-as-a-Service. It worth to discuss it here.
+Recently I came across a new open-source project called `Cerbos: Authorization-as-a-Service`. It worth to discuss it here.
 
-## What is Cerbos?
+## So... What is Cerbos?
 
-*In a brief:* 
+*In a very brief:* 
 
 [Cerbos](https://www.cerbos.dev/) is an authorization solution, which helps developers easily implement and manage fine-grained access control. 
 As of November 2024, Cerbos is still in the early stages of development, but it already looks promising.
+
 They offer two main products such as [Cerbos Hub](https://www.cerbos.dev/product-cerbos-hub) and [Cerbos Policy Decision Point (PDP)](https://www.cerbos.dev/product-cerbos-pdp).
-It's kinda one solution for different teams like [developers](https://www.cerbos.dev/for-developers), [architects](https://www.cerbos.dev/for-architects), [security engineers](https://www.cerbos.dev/for-security-teams), and [product teams](https://www.cerbos.dev/for-product-teams) to implement authorization in their applications.
+It's kinda one solution for different teams like [Developers](https://www.cerbos.dev/for-developers), [Architects](https://www.cerbos.dev/for-architects), [Security Engineers](https://www.cerbos.dev/for-security-teams), and [Product Teams](https://www.cerbos.dev/for-product-teams) to implement authorization in their applications.
 
 Let's dive into the details. And see how different teams can benefit from Cerbos.
 
@@ -20,19 +21,18 @@ Let's dive into the details. And see how different teams can benefit from Cerbos
 Authorization can be a complex, time-consuming task for developers. But with **Cerbos**, you can simplify your workflow and focus on building amazing features instead of wrestling with access controls.  
 
 #### **Implement Authorization Once**  
-Say goodbye to scattered, complex authorization logic. With Cerbos, you make a single call for access decisions. From there, product owners or security teams can manage access rules without ever touching your code.  
 
-Want to see how easy it is? Check out the [Cerbos video tutorial](https://youtu.be/caqUh6i3vVQ) to learn how to add a typical CRUD policy to a simple Express app in Node.  
+Want to see how easy it is? Check out the [Cerbos video tutorial](https://youtu.be/caqUh6i3vVQ) to learn how to add a typical `CRUD policy` to a simple Express app in Node.
 
 #### **Developer-Centric Design**  
 Cerbos is built by developers, for developers. It's designed to seamlessly integrate with your existing infrastructure, no matter how you deploy:  
-- Host it as a **sidecar**, **service**, or **function**.  
-- Define permissions as **config files** outside your application logic—no more code changes when access requirements evolve.  
+- Host it as a **`sidecar`**, **`service`**, or **`function`**.  
+- Define permissions as **`config files`** outside your application logic—no more code changes when access requirements evolve.  
 
 #### **Production-Ready from Day One**  
-With Cerbos, you don't need to worry about last-minute surprises in production. Enjoy first-class support for **GitOps** with features like:  
+With Cerbos, you don't need to worry about last-minute surprises in production. Enjoy first-class support for **`GitOps`** with features like:  
 - A **built-in testing framework** to validate policies.  
-- Easy integration with your CI/CD pipeline for seamless deployment.
+- Easy integration with your **`CI/CD pipeline`** for seamless deployment.
 
 #### **Support for Multiple Languages**  
 Cerbos is designed for flexibility, with support for popular programming languages like:  
@@ -40,7 +40,7 @@ Cerbos is designed for flexibility, with support for popular programming languag
 And that's just the start—more languages are on the way!
 
 #### **One-Line Authorization Made Simple**  
-Cerbos takes the hassle out of authorization with an intuitive approach that reduces boilerplate and keeps your code clean. Here's a simple example:
+Cerbos takes the hassle out of authorization with an intuitive approach that reduces boilerplate and keeps your code clean. Here's a simple example in Rust:
 
 *before Cerbos:*
     
@@ -68,6 +68,7 @@ if cerbos_client.is_allowed("edit", user, rosource, None).await?
     // access allowed
 }
 ```
+Say goodbye to scattered, complex authorization logic. With Cerbos, you make a single call for access decisions. From there, product owners or security teams can manage access rules without ever touching your code.  
 
 With Cerbos, authorization is no longer a bottleneck. It's a streamlined, developer-friendly process that empowers you to build faster, scale easily, and stay secure. [Try it out today](https://www.cerbos.dev/) !
 
@@ -111,8 +112,8 @@ Hey, you are a security engineer, and your task is to protect sensitive data and
 Cerbos provides a centralized way to enforce access control across your architecture. You can track and audit every request and decision without relying on developers, giving you the transparency and accountability you need.
 
 #### **Built for High-Security Requirements**  
-- **Compliance Assurance:** Cerbos meets strict standards for environments governed by regulations like **HIPAA**, **PCI DSS**, and **GDPR**, making it ideal for compliance-driven industries.
-- **Private by Design:** Perfect for air-gapped deployments and **Zero Trust** architectures, Cerbos is tailored for the most secure use cases.
+- **Compliance Assurance:** Cerbos meets strict standards for environments governed by regulations like **`HIPAA`**, **`PCI DSS`**, and **`GDPR`**, making it ideal for compliance-driven industries.
+- **Private by Design:** Perfect for air-gapped deployments and **`Zero Trust`** architectures, Cerbos is tailored for the most secure use cases.
 - **No Vendor Lock-In:** Keep full control of where your policies are stored and deployed, ensuring your independence and portability across platforms.
 
 #### **Fine-Grained Access Control Made Easy**  
@@ -204,7 +205,8 @@ We build Open Source AI-powered projects and tools for people.
 
 Cerbos delivers flexibility, scalability, and control, making it a powerful choice for access management.
 
-## Get Started with Cerbos
+## Get Started with Cerbos, NOW!
+
 [Painless access control for your software](https://docs.cerbos.dev/cerbos/latest/). Here's why...
 
 ![Get Started with Cerbos](assets/how_cerbos_works.png)
